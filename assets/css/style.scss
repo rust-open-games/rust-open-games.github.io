@@ -1,0 +1,49 @@
+---
+---
+
+@import "jekyll-theme-cayman";
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .page-header {
+        flex-grow: 0;
+        width: 100%;
+    }
+
+    .main-content {
+        flex-grow: 1;
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .site-footer-credits {
+        display: none;
+    }
+
+    .site {
+        display: flex;
+        flex-direction: row;
+    }
+
+    @media screen and (max-width: 800px) {
+        .main-content {
+            padding: 0;
+        }
+
+        .site {
+            display: block;
+
+            .site-content {
+                padding: 0 1rem;
+            }
+        }
+
+        .site-footer {
+            padding: 1rem;
+        }
+    }
+}
