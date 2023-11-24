@@ -4,3 +4,6 @@ title: Rust Open Games
 description: [Enjoy games built in Rust, whether they're classics, parodies, or creative.]
 show_downloads: false
 repository: rust-open-games/rust-open-games.github.io
+
+github:
+  is_project_page: true
