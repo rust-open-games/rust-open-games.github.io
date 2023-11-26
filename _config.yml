@@ -1,7 +1,7 @@
 theme: jekyll-theme-cayman
 
 title: Rust Open Games
-description: ["Enjoy games built in Rust, whether they're classics, parodies, or creative."]
+description: "Enjoy games built in Rust, whether they're classics, parodies, or creative."
 show_downloads: false
 
 github:
